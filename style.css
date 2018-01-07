@@ -1,0 +1,155 @@
+.background{
+    background:url(sand2.jpg);
+    width:100vw;
+    height:100vh;
+}
+
+div{
+    margin-top: 50vw;
+    margin-left: 50vw;
+    
+    height:500px;
+    width:500px;
+}
+
+.hero{
+    width: 50%;
+    height:auto;
+    position: relative;
+}
+
+.wtf{
+    margin-left:20px;
+    width: 20%;
+    height:auto;
+    opacity:0;
+}
+
+.arrow{
+    width:20%;
+    position: absolute;
+    top: 25px;
+    left: 2000px;
+    
+
+}
+
+.shakeCSS {
+    animation: ShakeItBaby 0.1s infinite;
+}
+    @keyframes ShakeItBaby{ 
+        
+    25%{
+        transform:translateX(-10px);
+    }
+    
+    75% {
+        transform:translateX(10px);
+    }
+    
+}
+
+.jumpCSS {
+    animation: JumpItBaby 0.8s infinite;
+}
+    @keyframes JumpItBaby{ 
+    
+    75%{
+        transform:translateY(-20px);
+    }
+    
+    
+}
+
+.slideCSS {
+    animation: SlideItBaby 3s infinite;
+}
+    @keyframes SlideItBaby{ 
+        
+    100%{
+        transform:translateX(100vw);
+    }
+
+    
+}
+
+.onejumpCSS {
+    animation: JumpItBaby 0.5s;
+}
+    @keyframes JumpItBaby{ 
+    
+    75%{
+        transform:translateY(-20px);
+ }
+}
+
+.fadeCSS {
+    animation: Fade 1s forwards;
+}
+    @keyframes Fade{ 
+    
+    75%{
+        opacity:0;
+        animation-fill-mode: forwards;
+    }
+}
+
+.talkCSS {
+    animation: Talk 1.5s;
+}
+    @keyframes Talk{ 
+    
+    100%{
+        opacity:1;
+    }
+}
+
+.move30CSS {
+    animation: Move30 3s forwards;
+}
+    @keyframes Move30{ 
+        
+    100%{
+        transform:translateX(30vw);
+        animation-fill-mode: forwards;
+    }
+
+}
+
+.fallCSS {
+    animation: Fall 4s forwards;
+}
+    @keyframes Fall{ 
+        
+    100%{
+        transform:translateY(2000px)translateX(100px)rotate(60deg);
+        
+    }
+
+}
+
+.arrowCSS {
+    animation: Shoot 0.5s linear forwards;
+}
+    @keyframes Shoot{ 
+        
+    100%{
+        transform:translateX(-1835px);
+        
+    }
+
+}
+
+.partyCSS {
+    animation: Party 0.5s linear infinite;
+}
+    @keyframes Party{ 
+        
+    25%{
+        transform:translateX(-40px)rotate(50deg); 
+    }
+    75%{
+        transform:translateX(40px)rotate(-50deg);
+    }
+}
+
